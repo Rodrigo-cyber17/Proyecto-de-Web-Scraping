@@ -200,13 +200,14 @@
 <br>
 
 <h3>🎁 Cómo Contribuir 🤝</h3>
-<p>**¡Siéntete libre de usarlo y mejorarlo!**</p>
+<p>¡Las contribuciones son bienvenidas! No dudes en enviar una solicitud de extracción o abrir un problema para cualquier mejora o corrección de errores. Para ello realiza lo siguiente:</p>
 <ol>
   <li>**Haz un fork de este repositorio.**</li>
   <li>**Crea una nueva rama con tu feature o corrección** (git checkout -b feature/nueva-funcionalidad).</li>
   <li>**Realiza tus cambios y haz commits descriptivos.**</li>
   <li>**Envía un pull request para que podamos revisar tu propuesta.**</li>
 </ol>
+<p>**¡Siéntete libre de usarlo y mejorarlo!**</p>
 
 <br>
 
