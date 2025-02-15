@@ -220,6 +220,6 @@
 <p>Si tienes dudas o sugerencias, no dudes en abrir un Issue o enviar un Pull Request.</p>
 <p>¡Feliz programación! 🏆✨<p>
 
-<hr><br>
+<hr><br><br>
 
 <h1>¡Gracias por visitar este repositorio!</h1>
