@@ -1,6 +1,7 @@
 <h1 align="center">Proyecto-de-Web-Scraping</h1>
 <h6>1º CFGS - DJK (Digitalización aplicada a los sectores productivos (GS))</h6>
 <h6 align="right">Hecho por Alexander Gómez Gutiérrez y Rodrigo López Pérez</h6>
+
 <hr><br><br><br>
 
 <h3>Proyecto de Web Scraping para Monitorización de Precios 🛍️💻</h3>
@@ -23,13 +24,13 @@
 
 <br><hr>
 
-<h3>🔍 Objetivo general 🕵️‍♂️ 🤔</h3>
-<p>Desarrollar un sistema que permita automatizar la recolección y análisis de datos de diferentes sitios web para la monitorización de precios, aprovechando o empleando los siguientes aspectos a mencionar:
+<h3>🔍 Objetivo general 🤔</h3>
+<p>Desarrollar un sistema que permita automatizar la recolección y análisis de datos de diferentes sitios web para la monitorización de precios, aprovechando o empleando los siguientes aspectos a mencionar:</p>
 <ul>
   <li>IA para la generación de código.</li>
   <li>Programación en pares (Pair Programming) para revisar y mejorar la calidad del código.</li>
   <li>Buenas prácticas de programación y documentación.</li>
-</ul></p>
+</ul>
 
 <br>
 
@@ -40,7 +41,7 @@
   <li>Programación de tareas periódicas para mantener los datos actualizados (cron jobs).</li>
   <li>Validación y manejo de errores para garantizar la robustez del sistema.</li>
   <li>Documentación completa y ejemplos de uso.</li>
-</ul></p>
+</ul>
 
 <br>
 
@@ -65,21 +66,22 @@
         <ul>
           <li>Definir repositorio y estructura de carpetas.</li>
           <li>Configurar entorno local (Python, librerías, herramientas de IA).</li>
-          <li>Alinear roles y responsabilidades (Pair Programming).</li>
+          <li>Estructuración del equipo (alinear roles) y responsabilidades (Pair Programming).</li>
         </ul>
       <li>Actividades</li>
         <ul>
-          <li>Crear repositorio y el README inicial.</li>
-          <li>Instalar y probar herramientas de IA (por ejemplo: GitHub, Copilot, Tabnine) → (En este caso usaremos GPT-4 sobre el IDE VSCode).</li>
-          <li>Configurar el entorno virtual y librerías (requests, BeautifulSoup, etc.).</li>
+          <li>Crear repositorio y README inicial.</li>
+          <li>Instalar y probar herramientas de IA (por ejemplo: GitHub Copilot, Tabnine) → (En este caso usaremos GPT-4 sobre el IDE VSCode).</li>
+          <li>Configurar el entorno virtual y librerías (requests, BeautifulSoup, etc).</li>
         </ul>
       <li>Entregables</li>
         <ul>
           <li>Repositorio con estructura básica.</li>
-          <li>Ambiente virtual listo y probado con antelación a la entrega.</li>
+          <li>Ambiente virtual listo y probado de antemano.</li>
         </ul>
     </ul>
-  <li>Parsing del HTML y Extracción de Datos (🕵️‍♀️ 1 hora)</li>
+  <br>
+  <li>Parsing del HTML y Extracción de Datos (🕵️‍♂️ 1 hora)</li>
     <ul>
       <li>Objetivos</li>
         <ul>
@@ -98,40 +100,125 @@
           <li>Documentación básica de la estructura HTML.</li>
         </ul>
     </ul>
-
-
-
-
-
-
-
-
-
-
-
+  <br>
+  <li>Almacenamiento de Datos y Actualización Periódica (💾 1 hora)</li>
+    <ul>
+      <li>Objetivos</li>
+        <ul>
+          <li>Crear la estructura de almacenamiento (CSV, DB, etc.) → (En este caso usaremos ...???).</li>
+          <li>Programar la lógica de actualización automática (cron jobs, schedulers).</li>
+        </ul>
+      <li>Actividades</li>
+        <ul>
+          <li>Decidir formato de almacenamiento (CSV, JSON, SQLite, etc.) → (En este caso usaremos ...???).</li>
+          <li>Configurar tareas programadas para el scraping periódico.</li>
+          <li>Validar la integridad de los datos.</li>
+        </ul>
+      <li>Entregables</li>
+        <ul>
+          <li>Script o configuración de tarea programada.</li>
+          <li>Esquema de datos y archivos de ejemplo.</li>
+        </ul>
+    </ul>
+  <br>
+  <li>Integración, Validación y Manejo de Errores (🔧 1 hora)</li>
+    <ul>
+      <li>Objetivos</li>
+        <ul>
+          <li>Integrar el sistema de scraping con el almacenamiento.</li>
+          <li>Implementar el manejo de errores y excepciones.</li>
+        </ul>
+      <li>Actividades</li>
+        <ul>
+          <li>Revisar flujo de datos completo.</li>
+          <li>Añadir validaciones (precios numéricos, fechas válidas).</li>
+          <li>Manejar excepciones (tiempo de espera, desconexión, captchas).</li>
+        </ul>
+      <li>Entregables</li>
+        <ul>
+          <li>Código robusto con validaciones y manejo de excepciones.</li>
+          <li>Log de errores y soluciones.</li>
+        </ul>
+    </ul>
+  <br>
+  <li>Documentación, Pruebas y Presentación Final (📑✅ 1 hora)</li>
+    <ul>
+      <li>Objetivos</li>
+        <ul>
+          <li>Crear documentación clara (Manual de Usuario y Técnico).</li>
+          <li>Diseñar y ejecutar pruebas de funcionalidad (unitarias, integración).</li>
+          <li>Preparar la presentación final (diapositivas, demo).</li>
+        </ul>
+      <li>Actividades</li>
+        <ul>
+          <li>Redactar documentación en README o Wiki</li>
+          <li>Implementar pruebas unitarias con pytest u otra herramienta</li>
+          <li>Preparar la demo o prueba para visualización en vivo.</li>
+        </ul>
+      <li>Entregables</li>
+        <ul>
+          <li>Documentación final.</li>
+          <li>Conjunto de pruebas unitarias.</li>
+          <li>Presentación (diapositivas, video o demostración en vivo del programa).</li>
+        </ul>
+    </ul>
+  <br>
+  <li>Repaso, Ajustes Finales y Cierre del Proyecto (🎉 1 hora) ↴</li>
+  <h6>(Hemos decidido añadir una sesión más a pesar de que la 5º sesión podría ser la última. En esta última sesión damos por finalizado el proyecto tras darle un último vistazo a los posibles errores durante la demostración del trabajo, al cierre del código y, en caso excepcional, retoque de ajustes finales, por ejemplo: optimización del código)</h6>
+    <ul>
+      <li>Objetivos</li>
+        <ul>
+          <li>Resolver dudas pendientes y realizar ajustes de última hora.</li>
+          <li>Realizar retrospectiva (qué funcionó, qué mejorar).</li>
+          <li>Cierre oficial del proyecto.</li>
+        </ul>
+      <li>Actividades</li>
+        <ul>
+          <li>Revisión de feedback de pruebas</li>
+          <li>Ajustes finales (refactorización, optimización).</li>
+          <li>Entrega y clausura del proyecto.</li>
+        </ul>
+      <li>Entregables</li>
+        <ul>
+          <li>Proyecto final listo para uso general o despliegue del mismo.</li>
+          <li>Informe de retrospectiva (objetivos conseguidos, valoración de la ruta tomada como equipo, etc.).</li>
+        </ul>
+    </ul>
+  <br>
+<br><hr>
   
-  <li>Características Principales</li>
-  <li>Cronograma de Trabajo</li>
-  <li>Detalle de Sesiones</li>
-  <li>Requerimientos de Herramientas y Recursos</li>
-  <li>Criterios de Evaluación</li>
-  <li>Entrega y Presentación Final</li>
-  <li>Cómo Contribuir</li>
-  <li>Licencia</li>
-</ol>
+<h3>🧰 Resumen (Requerimientos de Herramientas y Recursos) ⚡</h3>
 <ul>
-  <li>IA para la generación de código.</li>
-  <li>Programación en pares (Pair Programming) para revisar y mejorar la calidad del código.</li>
-  <li>Buenas prácticas de programación y documentación.</li>
-</ul></p>
+  <li>**Lenguaje** → Python 3.x.</li>
+  <li>**Librerías** → requests, BeautifulSoup, pandas (opcional), pytest (para pruebas).</li>
+  <li>**IA de Generación de Código** → ChatGPT o GPT-4 sobre el IDE VSCode</li>
+  <li>**Control de Versiones** → Git.</li>
+  <li>**Entorno de Desarrollo** → Visual Studio Code con GPT-4 como asistente.</li>
+  <li>**Documentación** → Markdown (README, Wiki), Google Docs, etc. Y, presentación en vivo del proyecto.</li>
+</ul>
 
 <br>
 
+<h3>🎁 Cómo Contribuir 🤝</h3>
+<p>**¡Siéntete libre de usarlo y mejorarlo!**</p>
+<ol>
+  <li>**Haz un fork de este repositorio.**</li>
+  <li>**Crea una nueva rama con tu feature o corrección** (git checkout -b feature/nueva-funcionalidad).</li>
+  <li>**Realiza tus cambios y haz commits descriptivos.**</li>
+  <li>**Envía un pull request para que podamos revisar tu propuesta.**</li>
+</ol>
 
+<br>
 
+<h3>📊 Licencia ⚖️</h3>
+<p>Este proyecto se distribuye/está licenciado bajo la **MIT License.**Consulta el archivo LICENSE para más detalles →  https://es.wikipedia.org/wiki/Licencia_MIT<p>
 
+<br>
 
+<h3>🙏 Agradecimientos 🙌</h3>
+<p>Si tienes dudas o sugerencias, no dudes en abrir un Issue o enviar un Pull Request.</p>
+<p>¡Feliz programación! 🏆✨<p>
 
+<hr><br>
 
-
-
+<h1>¡Gracias por visitar este repositorio!</h1>
