@@ -11,7 +11,7 @@
 
 <h3>Tabla de Contenidos 📋</h3>
 <ol>
-  <li><a href="[url](https://github.com/Rodrigo-cyber17/Proyecto-de-Web-Scraping/blob/main/README.md#-objetivo-general-)">Objetivo General</a></li>
+  <li>Objetivo General</li>
   <li>Características Principales</li>
   <li>Cronograma de Trabajo</li>
   <li>Detalle de Sesiones</li>
