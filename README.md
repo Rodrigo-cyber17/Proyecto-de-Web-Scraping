@@ -36,8 +36,8 @@
 
 <h3>🖊️ Características Principales 📋</h3>
 <ul>
-  <li>Scraping de datos relevantes (precios, descripciones, fechas).</li>
-  <li>Almacenamiento de la información en formatos como CSV, JSON o base de datos.</li>
+  <li>Scraping de datos relevantes (tipo de domicilio, precios, descripciones, fechas, ubicación).</li>
+  <li>Almacenamiento de la información en formatos JSON.</li>
   <li>Programación de tareas periódicas para mantener los datos actualizados (cron jobs).</li>
   <li>Validación y manejo de errores para garantizar la robustez del sistema.</li>
   <li>Documentación completa y ejemplos de uso.</li>
@@ -86,7 +86,7 @@
       <li>Objetivos</li>
         <ul>
           <li>Implementar la lógica de scraping con ayuda de la IA.</li>
-          <li>Probar métodos de extracción de elementos HTML (precios, nombres, etc.).</li>
+          <li>Probar métodos de extracción de elementos HTML (tipo de domicilio, precios, descripciones, fechas, ubicación).</li>
         </ul>
       <li>Actividades</li>
         <ul>
@@ -105,12 +105,12 @@
     <ul>
       <li>Objetivos</li>
         <ul>
-          <li>Crear la estructura de almacenamiento (CSV, DB, etc.) → (En este caso usaremos ...???).</li>
+          <li>Crear la estructura de almacenamiento (CSV, JSON, SQLite, DB, etc.).</li>
           <li>Programar la lógica de actualización automática (cron jobs, schedulers).</li>
         </ul>
       <li>Actividades</li>
         <ul>
-          <li>Decidir formato de almacenamiento (CSV, JSON, SQLite, etc.) → (En este caso usaremos ...???).</li>
+          <li>Decidir formato de almacenamiento, en este caso usaremos JSON.</li>
           <li>Configurar tareas programadas para el scraping periódico.</li>
           <li>Validar la integridad de los datos.</li>
         </ul>
@@ -131,7 +131,7 @@
       <li>Actividades</li>
         <ul>
           <li>Revisar flujo de datos completo.</li>
-          <li>Añadir validaciones (precios numéricos, fechas válidas).</li>
+          <li>Añadir validaciones (precios numéricos, fechas válidas, ubicación real).</li>
           <li>Manejar excepciones (tiempo de espera, desconexión, captchas).</li>
         </ul>
       <li>Entregables</li>
@@ -152,7 +152,7 @@
       <li>Actividades</li>
         <ul>
           <li>Redactar documentación en README o Wiki</li>
-          <li>Implementar pruebas unitarias con pytest u otra herramienta</li>
+          <li>Implementar pruebas unitarias al ejecutar y compilar el programa en VSCode</li>
           <li>Preparar la demo o prueba para visualización en vivo.</li>
         </ul>
       <li>Entregables</li>
