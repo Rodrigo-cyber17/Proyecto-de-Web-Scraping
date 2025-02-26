@@ -6,6 +6,38 @@
 
 <h3>Proyecto de Web Scraping para Monitorización de Precios 🛍️💻</h3>
 <p>¡Bienvenido/a! Este repositorio contiene el desarrollo de un sistema de Web Scraping para monitorizar precios de productos en diferentes sitios web, con ayuda de IA para la generación de código y Pair Programming para fomentar la colaboración.</p>
+<br>
+<h5>● 🏃 Ejecutar la Aplicación</h5>
+
+   1. Abre la terminal.
+   2. Clona el repositorio:
+```
+git clone <repository-url>
+```
+   3. Navega al directorio del proyecto:
+```
+cd Proyecto-de-Web-Scraping
+```
+   4. Instalar las librerías:
+```
+pip install [Nombre-Libreria]
+```
+   5. Ejecuta la aplicación:
+```
+python3 webScrapper.py
+```
+
+<br>
+<h3>◆ Estructura del Proyecto</h3>
+
+```
+Spyprice
+├── Proyecto-de-Web-Scrapping
+│   ├── datos_productos.csv
+│   ├── README.md
+│   ├── webScrapper.py
+|
+```
 
 <br>
 
