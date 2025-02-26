@@ -215,26 +215,26 @@
 
 <h3>👨‍💻 Ejecutar la Aplicación 🏃</h3>
 <ol>
-   <li>1. Abre la terminal.</li>
-   <li>2. Clona el repositorio:</li>
+   <li>Abre la terminal.</li>
+   <li>Clona el repositorio:</li>
    
       ```
       git clone <repository-url>
       ```
       
-   <li>3. Navega al directorio del proyecto:</li>
+   <li>Navega al directorio del proyecto:</li>
    
       ```
       cd Proyecto-de-Web-Scraping
       ```
       
-   <li>4. Instalar las librerías:</li>
+   <li>Instalar las librerías:</li>
    
       ```
       pip install [Nombre-Libreria]
       ```
       
-   <li>5. Ejecuta la aplicación:</li>
+   <li>Ejecuta la aplicación:</li>
    
       ```
       python3 webScrapper.py
