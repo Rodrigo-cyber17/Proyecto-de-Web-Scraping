@@ -33,10 +33,10 @@ python3 webScrapper.py
 ```
 Spyprice
 ├── Proyecto-de-Web-Scrapping
-│   ├── datos_productos.csv
-│   ├── README.md
-│   ├── webScrapper.py
-|
+   ├── datos_productos.csv
+   ├── README.md
+   ├── webScrapper.py
+
 ```
 
 <br>
