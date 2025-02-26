@@ -5,39 +5,7 @@
 <hr><br><br><br>
 
 <h3>Proyecto de Web Scraping para Monitorización de Precios 🛍️💻</h3>
-<p>¡Bienvenido/a! Este repositorio contiene el desarrollo de un sistema de Web Scraping para monitorizar precios de productos en diferentes sitios web, con ayuda de IA para la generación de código y Pair Programming para fomentar la colaboración.</p>
-<br>
-<h5>● 🏃 Ejecutar la Aplicación</h5>
-
-   1. Abre la terminal.
-   2. Clona el repositorio:
-```
-git clone <repository-url>
-```
-   3. Navega al directorio del proyecto:
-```
-cd Proyecto-de-Web-Scraping
-```
-   4. Instalar las librerías:
-```
-pip install [Nombre-Libreria]
-```
-   5. Ejecuta la aplicación:
-```
-python3 webScrapper.py
-```
-
-<br>
-<h3>◆ Estructura del Proyecto</h3>
-
-```
-Spyprice
-├── Proyecto-de-Web-Scrapping
-   ├── datos_productos.csv
-   ├── README.md
-   ├── webScrapper.py
-
-```
+<p>¡Bienvenido/a! Este repositorio contiene el desarrollo de un sistema de Web Scraping para monitorizar precios de productos en diferentes sitios web, con ayuda de IA para la generación de código y Pair Programming para fomentar la colaboración y el trabajo en equipo.</p>
 
 <br>
 
@@ -45,11 +13,13 @@ Spyprice
 <ol>
   <li>Objetivo General</li>
   <li>Características Principales</li>
+  <li>Estructura del Proyecto</li>
   <li>Cronograma de Trabajo</li>
   <li>Detalle de Sesiones</li>
   <li>Requerimientos de Herramientas y Recursos</li>
   <li>Criterios de Evaluación</li>
   <li>Entrega y Presentación Final</li>
+  <li>Ejecutar programa</li>
   <li>Cómo Contribuir</li>
   <li>Licencia</li>
 </ol>
@@ -74,6 +44,18 @@ Spyprice
   <li>Validación y manejo de errores para garantizar la robustez del sistema.</li>
   <li>Documentación completa y ejemplos de uso.</li>
 </ul>
+
+<br>
+
+<h3>🏗️ Estructura del Proyecto 🏛️</h3>
+   
+   ```
+   Spyprice
+   ├── Proyecto-de-Web-Scrapping
+      ├── datos_productos.csv
+      ├── README.md
+      ├── webScrapper.py
+   ```
 
 <br>
 
@@ -229,6 +211,37 @@ Spyprice
   <li>**Documentación** → Markdown (README, Wiki), Google Docs, etc. Y, presentación en vivo del proyecto.</li>
 </ul>
 
+<br>
+
+<h3>👨‍💻 Ejecutar la Aplicación 🏃</h3>
+<ol>
+   <li>1. Abre la terminal.</li>
+   <li>2. Clona el repositorio:</li>
+   
+      ```
+      git clone <repository-url>
+      ```
+      
+   <li>3. Navega al directorio del proyecto:</li>
+   
+      ```
+      cd Proyecto-de-Web-Scraping
+      ```
+      
+   <li>4. Instalar las librerías:</li>
+   
+      ```
+      pip install [Nombre-Libreria]
+      ```
+      
+   <li>5. Ejecuta la aplicación:</li>
+   
+      ```
+      python3 webScrapper.py
+      ```
+      
+</ol>
+   
 <br>
 
 <h3>🎁 Cómo Contribuir 🤝</h3>
